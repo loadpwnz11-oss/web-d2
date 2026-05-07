@@ -1,0 +1,42 @@
+# Documentation and temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build/distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Dependencies
+.venv/
+venv/
+.env.d/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
