@@ -1,11 +1,12 @@
-# Documentation and temporary files
-*.tmp
-*.temp
-
+```gitignore
 # Environment files
 .env
 .env.local
 *.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
 
 # Editor/IDE files
 .vscode/
@@ -13,30 +14,24 @@
 *.swp
 *.swo
 
-# Logs
-*.log
+# Dependencies
+node_modules/
+vendor/
 
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build/distribution artifacts
+# Build artifacts
 dist/
 build/
-*.egg-info/
+*.phar
 
-# Dependencies
-.venv/
-venv/
-.env.d/
+# Database
+*.sql
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
+# Cache
+.cache/
+__pycache__/
+*.pyc
 
-# System files
+# OS files
 .DS_Store
 Thumbs.db
+```
